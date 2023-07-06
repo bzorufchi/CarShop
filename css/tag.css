@@ -1,0 +1,9 @@
+body{
+    background-color: lightgray;
+}
+.container{
+    width: 800px; height: 580px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 100px;
+}
