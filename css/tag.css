@@ -18,7 +18,7 @@
     margin: 30px;
 }
 .brand{
-    width: 1000px; height: 200px;
+    width: 1000px; height: 100px;
     margin: auto;
 }
 .iconebrands{
@@ -27,13 +27,11 @@
 .model{
     width: 1000px; height: 400px;
     margin: auto;
-    border: 100px;
 }
 .img2{
     float: left;
+    padding: 50px;
 }
 .Description{
-}
-.model2{
-    
+    padding: 5px;
 }
