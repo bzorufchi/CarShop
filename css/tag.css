@@ -1,6 +1,6 @@
 
 .container{
-    width: 1000px; height: 305px;
+    width: 1000px; height: 350px;
     margin: auto;
     margin-top: 100px;
 }
@@ -15,5 +15,13 @@
     cursor: pointer;
 }
 .btn1{
-    padding: 30px;
+    margin: 30px;
+}
+.brand{
+    width: 1000px; height: 100px;
+    
+    margin: auto;
+}
+.iconebrands{
+    padding: 25px;
 }
