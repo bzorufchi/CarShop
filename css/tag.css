@@ -18,10 +18,23 @@
     margin: 30px;
 }
 .brand{
-    width: 1000px; height: 100px;
-    
+    width: 1000px; height: 200px;
     margin: auto;
 }
 .iconebrands{
     padding: 25px;
+}
+.model{
+    width: 1000px; height: 400px;
+    background-color: aqua;
+    margin: auto;
+    border: 100px;
+}
+.img2{
+    float: left;
+}
+.Description{
+}
+.model2{
+    
 }
