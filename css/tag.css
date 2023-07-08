@@ -1,0 +1,38 @@
+
+.container{
+    width: 1000px; height: 350px;
+    margin: auto;
+    margin-top: 100px;
+}
+.img{
+    float: right;
+}
+.btn{
+    border: none;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.btn1{
+    margin: 30px;
+    text-decoration: none;
+}
+.brand{
+    width: 1000px; height: 100px;
+    margin: auto;
+}
+.iconebrands{
+    padding: 25px;
+}
+.model{
+    width: 1000px; height: 400px;
+    margin: auto;
+}
+.img2{
+    float: left;
+    padding: 50px;
+}
+.Description{
+    padding: 5px;
+}
