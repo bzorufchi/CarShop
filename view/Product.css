@@ -1,0 +1,89 @@
+.bakhsh3{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bakhshdakheli{
+    display: flex;
+    width: 80%;
+   text-align: center;
+      margin-left: auto;
+    margin-right: auto;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.s1{
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.s1 img{
+    width: 90%;
+     border-radius: 5px;
+}
+.s1 h1{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.s1 a{
+    font-size: 19px;
+    display: block;
+    margin-top: 20px;
+}
+#t{
+    font-size: 16px;
+     margin-top: 30px;
+     background-color: blueviolet;
+    
+     width: 40%;
+     padding:8px;
+     display: block;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.s2{
+    background-color: white;
+     padding-top: 20px;
+      border-radius: 5px;
+      padding-bottom: 20px;
+}
+.s2 h1{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.s2 a{
+    font-size: 19px;
+    display: block;
+    margin-top: 20px;
+}
+.s2 img{
+      width: 90%;
+       border-radius: 5px;
+}
+.s3{
+      background-color: white;
+       padding-top: 20px;
+        border-radius: 5px;
+        padding-bottom: 20px;
+}
+.s3 img{
+  width: 90%;
+ 
+   border-radius: 5px;
+}
+.s3 h1{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.s3 a{
+    font-size: 19px;
+    display: block;
+    margin-top: 20px;
+}
