@@ -2,12 +2,13 @@ body{
     background-color: rgb(238, 238, 238);
 }
 .container{
-    width: 900px; height: 350px;
+    width: 1150px; height: 350px;
     margin: auto;
     margin-top: 50px;
     background-color: white;
     padding-left: 20px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 .img{
     float: right;
@@ -35,11 +36,12 @@ body{
     padding: 25px;
 }
 .model{
-    width: 915px; height: 400px;
+    width: 1150px; height: 350px;
     margin: auto;
     background-color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 .img2{
     float: left;
