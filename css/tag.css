@@ -3,18 +3,39 @@
     text-decoration: none;
 }
 .brand{
-    width: 1000px; height: 100px;
+    width: 950px; height: 100px;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .iconebrands{
     padding: 25px;
 }
 .model{
-    width: 1000px; height: 400px;
+    width: 1150px; height: 350px;
     margin: auto;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
+
 
 .Description{
     padding: 5px;
+}
+
+
+.img2{
+    float: left;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+.Description{
+    padding-right: 5px;
+}
+.btn3{
+    text-decoration: none;
 }
 
