@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assest/bootstrap/bootstrap.css">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+</head>
+<body>
+ <!-- <div class="container" style="padding-top: 2%;">
+    <label dir="rtl" style="float: right;">
+        اعداد رو وارد کن
+        <input type="text">
+        </label>
+
+
+        <br>
+        <br>
+        <div style="float: right; background-color:aqua;" id="print"></div>
+        
+ </div> -->
+
+
+
+<form name="calform" class="calform" action="index.html" method="post">
+<div class="row6">
+    <div class="col-md-4">
+
+    <input type="text" name="answer" id="answer-display" />
+    </div>
+    </div>
+     <div class="row">
+      <div class="col-md-4">
+    <input type="button" class="num-btn btn btn-info" value="C" onclick="calform.answer .value=''" />
+     <input type="button" class="num-btn btn btn-info" value="x"
+        onclick="calform.answer .value=calform.answer .value.substring(0,calform.answer .value.length*1-1)" /> 
+    <input type="button" class="num-btn btn btn-info" value="%" onclick="calform.answer .value+='00'" /> 
+      </div>
+     </div>
+    <br />
+    <div class="row">
+        <div class="col-md-4">
+            <input type="button" class="num-btn btn btn-info" value="7" onclick="calform.answer .value+='7'" />
+            <input type="button" class="num-btn btn btn-info" value="8" onclick="calform.answer .value+='8'" />
+            <input type="button" class="num-btn btn btn-info" value="9" onclick="calform.answer .value+='9'" />
+            <input type="button" class="oprator btn btn-info" value="*" onclick="calform.answer .value+='*'" />
+        </div>    
+    </div>
+
+    <br />
+    <div class="row2">
+        <div class="col-md-4">
+    <input type="button" class="num-btn btn btn-info" value="4" onclick="calform.answer .value+='4'" />
+    <input type="button" class="num-btn btn btn-info" value="5" onclick="calform.answer .value+='5'" />
+    <input type="button" class="num-btn btn btn-info" value="6" onclick="calform.answer .value+='6'" />
+    <input type="button" class="oprator btn btn-info" value="-" onclick="calform.answer .value+='-'" />
+    </div>
+    </div>
+    <br />
+    <div class="row3">
+        <div class="col-md-4">
+    <input type="button" class="num-btn btn btn-info" value="1" onclick="calform.answer .value+='1'" />
+    <input type="button" class="num-btn btn btn-info" value="2" onclick="calform.answer .value+='2'" />
+    <input type="button" class="num-btn btn btn-info" value="3" onclick="calform.answer .value+='3'" />
+    <input type="button" class="oprator btn btn-info" value="+" onclick="calform.answer .value+='+'" />
+</div>
+</div>
+    <br />
+<div class="row4">
+    <div class="col-md-4"></div>
+    <input type="button" id="zero" value="0" class="btn btn-info" onclick="calform.answer .value+='1'" />
+    <input type="button" class="num-btn btn btn-info" value="." onclick="calform.answer .value+='.'" />
+    <input type="button" class="oprator btn btn-info" value="=" onclick="calform.answer .value=eval(calform.answer.value)" />
+    <input type="button" class="oprator btn btn-info" value="/" onclick="calform.answer .value+='/'" />
+</div>
+</div>
+</form>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/Assest/Js/new.js"></script>
+<script src="/bootstrap.bundle.min.js"></script>
+</body>
+</html>
